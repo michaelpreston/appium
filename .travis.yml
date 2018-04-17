@@ -1,8 +1,5 @@
 language: node_js
 sudo: false
-node_js:
-  - "8"
-  - "6"
 addons:
   apt:
     sources:
@@ -17,9 +14,19 @@ jobs:
     - stage: Legacy Bundling
       install: npm install --legacy-bundling
       script: node . --version
+      node_js:
+        - "8"
     - stage: Generate Docs
       script: npm run generate-docs
+      node_js:
+        - "8"
     - stage: Unit Tests
       script: npm run test
+      node_js:
+        - "8"
+        - "6"
     - stage: Functional Tests
       script: npm run e2e-test
+      node_js:
+        - "8"
+        - "6"
