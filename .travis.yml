@@ -14,11 +14,17 @@ env:
     - CXX=g++-4.8
 matrix:
   include:
-    - install: npm install --legacy-bindling
-      script: node . --version
-    - install: npm install
-      script: npm run generate-docs
-    - install: npm install
-      script: npm run test
-    - install: npm install
-      script: npm run e2e-test
+    - env:
+      - INSTALL='npm install --legacy-bindling'
+      - SCRIPT='node . --version'
+    - env:
+      - INSTALL='npm install'
+      - SCRIPT='npm run generate-docs'
+    - env:
+      - INSTALL='npm install'
+      - SCRIPT='npm run test'
+    - env:
+      - INSTALL='npm install'
+      - SCRIPT='npm run e2e-test'
+install: $INSTALL
+script: $SCRIPT
