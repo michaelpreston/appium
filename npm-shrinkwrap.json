@@ -291,7 +291,6 @@
         "appium-android-bootstrap": "2.10.0",
         "appium-android-ime": "2.0.0",
         "appium-base-driver": "2.19.0",
-        "appium-chromedriver": "3.1.4",
         "appium-support": "2.11.1",
         "appium-unlock": "2.0.0",
         "asyncbox": "2.3.2",
@@ -392,44 +391,6 @@
           "version": "0.9.0",
           "resolved": "https://registry.npmjs.org/validate.js/-/validate.js-0.9.0.tgz",
           "integrity": "sha1-is8BRPFSChmDXGzGY/ReCDaqVsg="
-        }
-      }
-    },
-    "appium-chromedriver": {
-      "version": "3.1.4",
-      "resolved": "https://registry.npmjs.org/appium-chromedriver/-/appium-chromedriver-3.1.4.tgz",
-      "integrity": "sha1-Pg/ItXyY97MLKPvrDUlSFaFMMEk=",
-      "requires": {
-        "appium-base-driver": "2.19.0",
-        "appium-support": "2.11.1",
-        "asyncbox": "2.3.2",
-        "babel-runtime": "5.8.24",
-        "bluebird": "2.11.0",
-        "continuation-local-storage": "3.2.1",
-        "is-os": "1.0.1",
-        "lodash": "4.17.4",
-        "request": "2.83.0",
-        "request-promise": "1.0.2",
-        "source-map-support": "0.3.3",
-        "teen_process": "1.11.0",
-        "through": "2.3.8"
-      },
-      "dependencies": {
-        "source-map": {
-          "version": "0.1.32",
-          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.32.tgz",
-          "integrity": "sha1-yLbBZ3l7pHQKjqMyUhYv8IWRsmY=",
-          "requires": {
-            "amdefine": "1.0.1"
-          }
-        },
-        "source-map-support": {
-          "version": "0.3.3",
-          "resolved": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.3.3.tgz",
-          "integrity": "sha1-NJAJd9W6PwfHdX7nLnO7GptTdU8=",
-          "requires": {
-            "source-map": "0.1.32"
-          }
         }
       }
     },

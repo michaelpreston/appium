@@ -11,7 +11,6 @@
             "appium-android-ime",
             "appium-atoms",
             "appium-base-driver",
-            "appium-chromedriver",
             "appium-cookies",
             "appium-doctor",
             "appium-express",
